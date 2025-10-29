@@ -1,2 +1,19 @@
+# env & secrets
 .env
+*.env
+.env.*.local
+.envrc
+
+# Python
 venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.dist/
+.build/
+
+# OS / editors
+.DS_Store
+*.swp
+.idea/
+.vscode/
